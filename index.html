@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Pad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h1 class="h1">Bookskey</h1>
+
+  </div>
+
+  <div class="container">
+    <div class="bookcontainer">
+      <h2>My First Note Pad</h2>
+      <h5>Divak>ar</h5>
+      <p>I am Happy to share my first project with you , Although it is a simple project , I done it by my own without anyone help , i sucessfully managed 
+        to opearate  FRONTEND and BACKEND , I also learned HTML  with CSS STYLING  </p>
+      <button onclick="del(event)" class="bookcontainerbtn">
+        Delete
+      </button>
+    </div>
+
+    
+  </div>
+  <div class="popup-overlay"></div>
+
+  <div class="popupbox">
+    <h2 class="popupadd">Add Note :</h2>
+    <form>
+      <input type="text" placeholder=" * Note title" id="booktitle">
+      <input type="text" placeholder=" * Date" id="bookauthor">
+      <textarea placeholder="* Your Memories" id="shortdescription"></textarea>
+      <button id="add" class="add">ADD</button>
+      <button id="cancel" class="cancel">CANCEL</button>
+    </form>
+  </div>
+
+  <button class="addbutton" id="addpopup">+</button>
+
+
+    <script src="script.js"></script>
+
+  
+</body>
+</html>
